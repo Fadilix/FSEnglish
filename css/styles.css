@@ -7,9 +7,7 @@ body{
   box-sizing: content-box;
 }
 
-html{
-	height: -webkit-fill-available;
-}
+
 
 html,body{
 	width: 100%;
@@ -17,6 +15,11 @@ html,body{
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+}
+
+body{
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -70,7 +73,7 @@ nav ul li a{
 }
 
 .container{
-	max-width: 1300px;
+	max-width: 1000px;
 	margin: 20px auto;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -138,9 +141,16 @@ p{
 }
 
 .conseils{
-	margin-left: 270px;
-	margin-right: 270px;
+	margin-left: 200px;
+	margin-right: 400px;
+	display: flex;
 	align-items: center;
+}
+.conseils{
+	width: 100vh;
+	flex-direction: column;
+	overflow: scroll;
+	flex: 1;
 }
 
 .conseils div h2{
@@ -175,11 +185,15 @@ p{
 	transition: 0.4s;
 }
 
+.conseils{
+	margin-left: 400px;
+}
+
 
 
 /*Display pour les utilisateurs de smartphone*/
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width : 1000px){
 .navbar{
 	display: block;
 	width: 100%;
@@ -244,13 +258,45 @@ div .col-2 a{
 	margin-left: 140px;
 }
 
+
 .conseils{
-	width: 100vh;
-	display: flex;
-	flex-direction: column;
-	overflow: scroll;
-	flex: 1;
+	align-items: center;
+	margin-left: 30px;
+	margin-right: 0px;
 }
+
+p,h2,h3{
+	width: 50%;
+	word-wrap: break-word;
+
+}
+
+.align{
+align-items: left;
+margin-left: -100px;
+
+}
+
+.align video{
+	width: 350px;
+	height: 300px;
+	margin-left: -200px;
+}
+
+.align iframe{
+	width: 350px;
+	height: 300px;
+	margin-left: -200px;
+}
+
+.align a{
+	margin-right: 208px;
+}
+
+
+
+
+
 
 
 
