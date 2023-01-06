@@ -205,7 +205,7 @@ p{
 
 section.conseils{
 	max-width: 600px;
-	padding-left: -5px;
+	margin-left: -1px;
 	padding-right: 1px;
 }
 
