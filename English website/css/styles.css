@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,100;1,200;1,400&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+.container{
+	max-width: 1200px;
+}
+
+.navbar{
+	display: none;
+}
+
+
+
+.logo img{
+	padding-left: -20px;
+	padding-right: 20px;
+	width: 120px;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #555;
+	font-size: 15px;
+}
+
+.container{
+	max-width: 1300px;
+	margin: 20px auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+.col-2 img{
+	width:100%;
+	width: 450px;
+	padding: 1px 0;
+}
+
+div .col-2 h2{
+	
+	line-height: 25px;
+	margin: 20px;
+	font-size: 25px;
+
+}
+
+.col-2 a{
+	text-decoration: none;
+	padding: 8px 30px;
+	background-color: mediumvioletred;
+	color: yellow;
+	border-radius: 30px;
+	margin-top: 30px;
+	margin: 20px;
+}
+
+p{
+	color: #555;
+	margin: 20px;
+}
+
+.landing-page{
+	background-image: linear-gradient(to right, #6a82fb, #fc5c7d);
+	margin-top: -20px;
+}
+
+.col-2 a:hover{
+	background-color: rebeccapurple;
+	transition: 0.4s;
+	color: navajowhite;
+}
+
+
+/*Style de  la section des conseils*/
+
+.cat-1{
+	align-items: center;
+	
+
+}
+
+.conseils{
+	margin-left: 270px;
+	margin-right: 270px;
+	align-items: center;
+}
+
+.conseils div h2{
+	text-align: center;
+}
+.conseils div h3{
+	text-align: center;
+	margin-top: 50px;
+}
+.conseils div iframe{
+	align-items: center;
+	display: center;
+	
+}
+.align{
+	align-items: center;
+	text-align: center;
+}
+
+.align a{
+	text-decoration: none;
+	background-color: whitesmoke ;
+	color: black;
+	padding-left: 1px;
+	border-radius: 30px;
+	margin-left: 30px;
+}
+
+.align a:hover{
+	background-color: beige;
+	color: black;
+	transition: 0.4s;
+}
+
+
+
+/*Display pour les utilisateurs de smartphone*/
+
+@media only screen and (max-width : 600px){
+.navbar{
+	display: block;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.landing-page{ 
+	margin: 0 auto;
+	margin-top: -20px;
+}
+div .col-2 h2{
+	padding left: 20px;
+	margin: 20px;
+	padding: 20px 0px 0px;
+	font-size: 20px;
+	
+}
+
+div .col-2{
+	max-width: 15px;
+	margin: 0 auto;
+
+}
+
+.conseils{
+	margin: 0 auto;
+	padding: 20px 0px 0px;
+}
+
+.col-2 img{
+	width: 250px;
+}
+
+.logo img{
+	padding-left: -20px;
+	padding-right: 20px;
+	width: 90px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #555;
+	font-size: 12px;
+}
+
+
+div .col-2 h2{
+	
+	line-height: 25px;
+	margin: 20px;
+	font-size: 23px;
+	padding-left: 70px;
+}
+
+
+.row1 p{
+	padding-left: 70px;
+}
+
+div .col-2 a{
+	font-size: 7px;
+	margin-left: 90px;
+}
+
+.conseils{
+	width: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+}
