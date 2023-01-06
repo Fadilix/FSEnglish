@@ -141,13 +141,11 @@ p{
 }
 
 .conseils{
-	margin-left: 200px;
-	margin-right: 400px;
+	margin-right: 200px;
 	display: flex;
 	align-items: center;
 }
 .conseils{
-	width: 100vh;
 	flex-direction: column;
 	overflow: scroll;
 	flex: 1;
@@ -186,14 +184,14 @@ p{
 }
 
 .conseils{
-	margin-left: 400px;
+	margin-left: 200px;
 }
 
 
 
 /*Display pour les utilisateurs de smartphone*/
 
-@media only screen and (max-width : 1000px){
+@media only screen and (max-width : 600px){
 .navbar{
 	display: block;
 	width: 100%;
@@ -221,6 +219,7 @@ div .col-2{
 .conseils{
 	margin: 0 auto;
 	padding: 20px 0px 0px;
+	width: 100vh;
 }
 
 .col-2 img{
