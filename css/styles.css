@@ -142,7 +142,9 @@ p{
 
 .conseils{
 	margin-right: 200px;
+	margin-left: 200px;
 	display: flex;
+	flex: 1;
 	align-items: center;
 }
 .conseils{
@@ -183,9 +185,7 @@ p{
 	transition: 0.4s;
 }
 
-.conseils{
-	margin-left: 200px;
-}
+
 
 
 
