@@ -205,6 +205,8 @@ p{
 
 section.conseils{
 	max-width: 600px;
+	padding-left: -5px;
+	padding-right: 1px;
 }
 
 div .col-2 h2{
@@ -272,7 +274,7 @@ div .col-2 a{
 p,h2,h3{
 	width: 50%;
 	word-wrap: break-word;
-	font-size: 80%;
+	font-size: 97%;
 }
 
 .align{
@@ -296,6 +298,8 @@ margin-left: -100px;
 .align a{
 	margin-right: 208px;
 }
+
+
 
 
 
