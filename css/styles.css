@@ -34,6 +34,7 @@ body{
 
 .navbar{
 	display: none;
+
 }
 
 
@@ -166,9 +167,9 @@ p{
 	
 }
 .align{
-	align-items: center;
 	text-align: center;
 }
+
 
 .align a{
 	text-decoration: none;
@@ -180,7 +181,7 @@ p{
 }
 
 .align a:hover{
-	background-color: beige;
+	background-color: palegoldenrod;
 	color: black;
 	transition: 0.4s;
 }
@@ -278,35 +279,47 @@ p,h2,h3{
 }
 
 .align{
-align-items: left;
+align-items: center;
 margin-left: -100px;
 
 }
 
 .align video{
-	width: 350px;
+	width: 330px;
 	height: 300px;
 	margin-left: -200px;
 }
 
-.align iframe{
-	width: 350px;
+div.align iframe{
+	width: 330px;
 	height: 300px;
 	margin-left: -200px;
+	display: center;
 }
 
 .align a{
 	margin-right: 208px;
 }
 
+.align video{
+	display: center;
+	margin-left: -120px;
 
+}
 
+div.align iframe{
+	max-width: 800px;
+	padding-left: 100px;
 
+}
 
+a.ct{
+	justify-content: center;
+}
 
+div .align a{
 
-
-
+}
 
 
 
