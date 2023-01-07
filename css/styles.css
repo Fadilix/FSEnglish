@@ -9,6 +9,8 @@ body{
 
 
 
+
+
 html,body{
 	width: 100%;
 	height: 100%;
@@ -309,7 +311,7 @@ div.align iframe{
 
 div.align iframe{
 	max-width: 800px;
-	padding-left: 100px;
+	padding-left: 90px;
 
 }
 
@@ -321,7 +323,15 @@ div .align a{
 
 }
 
+.center{
+	margin-left: 20px;
+	word-wrap: break-word;
 
+}
+
+p{
+	max-width: 300px;
+}
 
 
 
